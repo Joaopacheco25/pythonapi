@@ -101,7 +101,7 @@ class PublicUserApiTest(TestCase):
         """Test that authentication is required for users"""
         result = self.client.get(ME_URL)
 
-        self.assertEqual(result.status_cod, status.HTTP_401_UNAUTHORIZED)
+        self.assertEqual(result.status_code, status.HTTP_401_UNAUTHORIZED)
 
 
 class PrivateUserApiTests(TestCase):
@@ -140,6 +140,6 @@ class PrivateUserApiTests(TestCase):
         result = self.client.patch(ME_URL, payload)
 
         self.user.refresh_from_db()
-        self.assertEqual(result.user.name, payload['name'])
+        self.assertEqual(self.user.name, payload['name'])
         self.assertTrue(self.user.check_password(payload['password']))
         self.assertEqual(result.status_code, status.HTTP_200_OK)
