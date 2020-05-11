@@ -1,0 +1,5 @@
+{
+  "app/core/tests/test_commands.py": true,
+  "app/core/tests/test_model.py": true,
+  "app/user/tests/test_user_api.py": true
+}
