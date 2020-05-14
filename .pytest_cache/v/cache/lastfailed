@@ -1,5 +1,9 @@
 {
   "app/core/tests/test_commands.py": true,
   "app/core/tests/test_model.py": true,
+  "app/recipe/tests/test_ingredients.py": true,
+  "app/recipe/tests/test_ingredients_api.py": true,
+  "app/recipe/tests/test_tags_api.py": true,
+  "app/recipe/tests/test_tags_api.py.2fea3e955a1c7995891f2335479fc4d7.py": true,
   "app/user/tests/test_user_api.py": true
 }
