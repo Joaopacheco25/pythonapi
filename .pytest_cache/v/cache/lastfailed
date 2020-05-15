@@ -3,6 +3,7 @@
   "app/core/tests/test_model.py": true,
   "app/recipe/tests/test_ingredients.py": true,
   "app/recipe/tests/test_ingredients_api.py": true,
+  "app/recipe/tests/test_ingredients_api.py.33e5114911a1dafb10d51f5394d135ce.py": true,
   "app/recipe/tests/test_tags_api.py": true,
   "app/recipe/tests/test_tags_api.py.2fea3e955a1c7995891f2335479fc4d7.py": true,
   "app/user/tests/test_user_api.py": true
